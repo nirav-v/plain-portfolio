@@ -2,25 +2,37 @@
   --background-gradient: linear-gradient(rgb(210, 210, 228), rgb(59, 50, 50));
 }
 
+body,
 html {
-  height: 100vh;
-  width: 100vw;
-  /* overflow: hidden; */
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background: var(--background-gradient);
-  margin: 0;
-  height: 100vh;
 }
 
 aside {
   float: left;
+  /* position: fixed; */
+  overflow-y: scroll;
+  z-index: 1001;
+  background: #f2f3f7;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   flex: 0 0 auto;
-  background-color: aliceblue;
   height: 100vh;
   padding: 0 0;
   margin-bottom: 0;
+}
+
+aside .position {
+  display: block;
+  margin-bottom: 2em;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 /* this also hides the details text */
