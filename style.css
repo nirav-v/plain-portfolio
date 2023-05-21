@@ -13,6 +13,28 @@ body {
   background: var(--background-gradient);
 }
 
+a {
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+i {
+  color: #190000;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.greeting-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 aside {
   /* float: left; */
   width: 25%;
@@ -25,7 +47,7 @@ aside {
   transition: 0.5s;
   flex: 0 0 auto;
   height: 100vh;
-  padding: 0 0;
+  padding: 15px 0;
   margin-bottom: 0;
 }
 
