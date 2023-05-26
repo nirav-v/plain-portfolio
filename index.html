@@ -26,159 +26,160 @@
 <body>
 
   <!-- navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./resume.html" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!-- want it to align along the left side -->
 
-  <aside class="fixed-top">
-    <!-- profile pic -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid"> -->
-    <ul class="nav  flex-column text-center">
-      <li class="nav-item">
-        <img src="./images/profile-pic.jpeg" alt="profile-pic" class="rounded-circle ">
-      </li>
-      <div class="icon-links">
-        <a href="https://www.linkedin.com/in/nirav-venkatesan/" target="_blank"><i class="fa fa-linkedin-square"
-            aria-hidden="true" style="font-size:30px;"></i></a>
-        <a href="https://github.com/nirav-v" target="_blank"><i class="fa fa-github" aria-hidden="true"
-            style="font-size:30px"></i></a>
-      </div>
+  <!-- <aside class=""> -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3">
 
-      <li class="nav-item">
-        <span class="position mt-4">Full Stack Developer <br /> San Diego, CA</span>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./resume.html" target="_blank">Resume</a>
-      </li>
-    </ul>
-    <!-- </div>
-    </nav> -->
-  </aside>
-
-  <!-- main content next to aside -->
-  <div class="main-content">
-    <div class="greeting-div">
-      <h1><span class="hidden  greeting m-3">Hi 👋</span> <span class="hidden span-name">I'm Nirav</span></h1>
-    </div>
-
-    <!-- about me -->
-    <!-- from copilot  -->
-    <div id="about" class="container">
-      <div class="row px-5 mx-3 ">
-        <div class="col mt-3">
-          <!-- <h1 class="display-2 text-center">About Me</h1> -->
-          <p class="text-start"><span class="fw-bold">Allow me to introduce myself -</span> I'm Nirav, a full-stack
-            developer who
-            originally hails from San
-            Jose and now
-            calls San Diego
-            home. My
-            journey as a freelance developer has allowed me to work with various clients, crafting customized and
-            innovative
-            solutions to meet their needs. Currently, I also serve as a teaching assistant at UC San Diego's Coding
-            Bootcamp, where I
-            get to
-            share my passion for Computer Science and Software to help aspiring developers hone their skills.
-            Outside of
-            my interest in Software Engineering and Computer Science,
-            I focus my learning towards the realms of biology, wildlife, and neuroscience, which interest me personally.
-            I also find great
-            joy in the
-            simple
-            pleasures of skateboarding or hitting the slopes on my snowboard.
-            <!-- Oh, and did I mention that I have two
-            adorable canine
-            companions who add an extra dose of joy to my life? With a diverse skill set, a commitment to education, and
-            a
-            genuine
-            love for nature, I bring a balanced and enthusiastic approach to every project I take on. -->
-          </p>
-
+        <!-- profile pic -->
+        <div class="profile text-center w-25 pt-5">
+          <img src="./images/profile-pic.jpeg" alt="profile-pic" class="rounded-circle ">
+          <div class="icon-links">
+            <a href="https://www.linkedin.com/in/nirav-venkatesan/" target="_blank"><i class="fa fa-linkedin-square"
+                aria-hidden="true" style="font-size:30px;"></i></a>
+            <a href="https://github.com/nirav-v" target="_blank"><i class="fa fa-github" aria-hidden="true"
+                style="font-size:30px"></i></a>
+          </div>
+          <span class="role">Full Stack Developer <br /> San Diego, CA</span>
         </div>
       </div>
-      <!-- another row for pics -->
-      <div class="row">
-        <div class="col-3">
-          <img src="./images/skateboard.jpeg" alt="grind" class="skateboard-image rounded">
+
+      <!-- </aside> -->
+
+      <!-- main content next to aside -->
+      <!-- <div class="main-content"> -->
+
+      <div class="col-9">
+        <!-- about me -->
+        <div class="greeting-div">
+          <h1><span class="hidden  greeting m-3">Hi 👋</span> <span class="hidden span-name">I'm Nirav</span></h1>
         </div>
-        <div class="col-3">
-          <img src="./images/dog.jpeg" alt="grind" class="dog-image rounded">
-        </div>
-        <div class="col-3">
-          <img src="./images/yogi.jpeg" alt="grind" class="dog-image rounded">
-        </div>
-        <div class="col-3">
-          <img src="./images/snowboard.jpeg" alt="grind" class="dog-image rounded">
-        </div>
+        <p class="bio"><span class="fw-bold">Allow me to introduce myself -</span> I'm Nirav, a
+          full-stack
+          developer who
+          originally hails from San
+          Jose and now
+          calls San Diego
+          home. My
+          journey as a freelance developer has allowed me to work with various clients, crafting customized and
+          innovative
+          solutions to meet their needs. Currently, I also serve as a teaching assistant at UC San Diego's Coding
+          Bootcamp, where I
+          get to
+          share my passion for Computer Science and Software to help aspiring developers hone their skills.
+          Outside of
+          my interest in Software Engineering and Computer Science,
+          I focus my learning towards the realms of biology, wildlife, and neuroscience, which interest me personally.
+          I also find great
+          joy in the
+          simple
+          pleasures of skateboarding or hitting the slopes on my snowboard.
+
+        </p>
       </div>
     </div>
-    <!-- project grid -->
-
-    <h2 class="display-5 text-center">Projects</h2>
-
-    <div id="portfolio" class="container portfolio">
-      <div class="row ">
-        <div class="  col-xs-12 col-4 ">
-          <div class="card " style="width: 18rem;">
-            <div class="card-body text-center">
-              Restroom-Router
-            </div>
-            <div class="additional-details">
-              <p>Yelp for public restrooms. MERN Stack application</p>
-              <div class="icons d-flex justify-content-between align-items-start">
-                <a href="https://github.com/nirav-v/restroom-router" target="_blank"> <i class="fa fa-github"
-                    style="font-size:36px"></i></a>
-                <i class="fa fa-external-link" aria-hidden="true" style="font-size:30px"></i>
-              </div>
-            </div>
-            <img src="./images/restroomrouter.jpg" alt="restroom-router">
-          </div>
-
-        </div>
-        <div class="  col-xs-12 col-sm-4">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body text-center">
-              DW Rugs </div>
-            <div class="additional-details">
-              <p>Landing page used by a real business that makes custom rugs</p>
-              <div class="icons d-flex justify-content-between align-items-start">
-                <i class="fa fa-github" style="font-size:36px"></i>
-                <i class="fa fa-external-link" aria-hidden="true" style="font-size:30px"></i>
-              </div>
-            </div>
-            <img src="./images/dwRugsImage.png" alt="dw-rugs">
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body text-center">
-              Adopt-an-Owner
-            </div>
-            <div class="additional-details">
-              <p>App used by dogs in need of a human</p>
-              <div class="icons d-flex justify-content-between align-items-start">
-                <i class="fa fa-github" style="font-size:36px"></i>
-                <i class="fa fa-external-link" aria-hidden="true" style="font-size:30px"></i>
-              </div>
-            </div>
-            <img src="./images/adoptAnOwnerImage.png" alt="adoptAnOwnerImage">
-          </div>
-        </div>
+    <!-- another row for pics -->
+    <div class="row pt-5 mt-3">
+      <div class="col-3">
+        <img src="./images/skateboard.jpeg" alt="grind" class="skateboard-image rounded">
+      </div>
+      <div class="col-3">
+        <img src="./images/dog.jpeg" alt="grind" class="dog-image rounded">
+      </div>
+      <div class="col-3">
+        <img src="./images/yogi.jpeg" alt="grind" class="dog-image rounded">
+      </div>
+      <div class="col-3">
+        <img src="./images/snowboard.jpeg" alt="grind" class="dog-image rounded">
       </div>
     </div>
-
-
-
-
-
   </div>
+
+  <!-- </div> -->
+  <!-- project grid -->
+
+
+  <div id="portfolio" class="container portfolio">
+    <div class="row ">
+      <div class="  col-xs-12 col-4 ">
+        <div class="card " style="width: 18rem;">
+          <div class="card-body text-center">
+            Restroom-Router
+          </div>
+          <div class="additional-details">
+            <p>Yelp for public restrooms. MERN Stack application</p>
+            <div class="icons d-flex justify-content-between align-items-start">
+              <a href="https://github.com/nirav-v/restroom-router" target="_blank"> <i class="fa fa-github"
+                  style="font-size:36px"></i></a>
+              <i class="fa fa-external-link" aria-hidden="true" style="font-size:30px"></i>
+            </div>
+          </div>
+          <img src="./images/restroomrouter.jpg" alt="restroom-router">
+        </div>
+
+      </div>
+      <div class="  col-xs-12 col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-center">
+            DW Rugs </div>
+          <div class="additional-details">
+            <p>Landing page used by a real business that makes custom rugs</p>
+            <div class="icons d-flex justify-content-between align-items-start">
+              <i class="fa fa-github" style="font-size:36px"></i>
+              <i class="fa fa-external-link" aria-hidden="true" style="font-size:30px"></i>
+            </div>
+          </div>
+          <img src="./images/dwRugsImage.png" alt="dw-rugs">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-center">
+            Adopt-an-Owner
+          </div>
+          <div class="additional-details">
+            <p>App used by dogs in need of a human</p>
+            <div class="icons d-flex justify-content-between align-items-start">
+              <i class="fa fa-github" style="font-size:36px"></i>
+              <i class="fa fa-external-link" aria-hidden="true" style="font-size:30px"></i>
+            </div>
+          </div>
+          <img src="./images/adoptAnOwnerImage.png" alt="adoptAnOwnerImage">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- </div> -->
 
   <!-- bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -4,7 +4,7 @@
 
 body,
 html {
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
   padding: 0;
 }
@@ -36,22 +36,26 @@ i {
 }
 
 aside {
-  /* float: left; */
   width: 25%;
-  /* position: relative; */
+  /* position: absolute; */
   /* overflow-y: scroll; */
-  /* z-index: 1001; */
+  /* z-index: -1; */
   background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   flex: 0 0 auto;
-  height: 100vh;
+  height: 30%;
+  width: 100vw;
   padding: 15px 0;
   margin-bottom: 0;
 }
 
-aside .position {
+.profile {
+  position: absolute;
+}
+
+.role {
   display: block;
   margin-bottom: 2em;
   font-size: 12px;
@@ -67,17 +71,12 @@ aside li {
   padding: 0 15px;
 }
 
-#about {
-  width: 80%;
-  height: 100vh;
-}
-
 .portfolio {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .resume-page {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /* this also hides the details text */
@@ -103,7 +102,8 @@ aside li {
 }
 
 @media screen and (max-width: 990px) {
-  aside {
-    float: none;
-  }
+  /* aside {
+    height: 30%;
+    width: 100vw;
+  } */
 }
