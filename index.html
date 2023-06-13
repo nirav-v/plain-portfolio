@@ -51,12 +51,17 @@
   <!-- want it to align along the left side -->
 
   <!-- <aside class=""> -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-3">
-
+  <div class="container">
+    <div class="row headshot">
+      <div class="col-12 text-center d-flex justify-content-center">
+        <!-- greeting message -->
+        <div class="greeting-div  pt-5 m-3">
+          <h1><span class="hidden greeting ">Hi 👋</span> </h1>
+          <h1><span class="hidden span-name">I'm
+              Nirav</span></h1>
+        </div>
         <!-- profile pic -->
-        <div class="profile text-center w-25 pt-5">
+        <div class="profile text-center pt-5">
           <img src="./images/profile-pic.jpeg" alt="profile-pic" class="rounded-circle ">
           <div class="icon-links">
             <a href="https://www.linkedin.com/in/nirav-venkatesan/" target="_blank"><i class="fa fa-linkedin-square"
@@ -67,18 +72,17 @@
           <span class="role">Full Stack Developer <br /> San Diego, CA</span>
         </div>
       </div>
+    </div>
 
-      <!-- </aside> -->
+    <!-- </aside> -->
 
-      <!-- main content next to aside -->
-      <!-- <div class="main-content"> -->
-
-      <div class="col-9">
+    <!-- main content next to aside -->
+    <!-- <div class="main-content"> -->
+    <div class="row">
+      <div class="col-12">
         <!-- about me -->
-        <div class="greeting-div">
-          <h1><span class="hidden  greeting m-3">Hi 👋</span> <span class="hidden span-name">I'm Nirav</span></h1>
-        </div>
-        <p class="bio"><span class="fw-bold">Allow me to introduce myself -</span> I'm Nirav, a
+
+        <p class="bio" id="about"><span class="fw-bold">Allow me to introduce myself -</span> I'm Nirav, a
           full-stack
           developer who
           originally hails from San
@@ -125,7 +129,7 @@
 
   <div id="portfolio" class="container portfolio">
     <div class="row ">
-      <div class="  col-xs-12 col-4 ">
+      <div class="col-xs-12 col-4 ">
         <div class="card " style="width: 18rem;">
           <div class="card-body text-center">
             Restroom-Router
@@ -134,8 +138,9 @@
             <p>Yelp for public restrooms. MERN Stack application</p>
             <div class="icons d-flex justify-content-between align-items-start">
               <a href="https://github.com/nirav-v/restroom-router" target="_blank"> <i class="fa fa-github"
-                  style="font-size:36px"></i></a>
-              <i class="fa fa-external-link" aria-hidden="true" style="font-size:30px"></i>
+                  style="font-size:36px; color:white;"></i></a>
+              <a href="restroom--router.herokuapp.com/" target="_blank"></a><i class="fa fa-external-link"
+                aria-hidden="true" style="font-size:30px; color:white;"></i>
             </div>
           </div>
           <img src="./images/restroomrouter.jpg" alt="restroom-router">
@@ -149,8 +154,10 @@
           <div class="additional-details">
             <p>Landing page used by a real business that makes custom rugs</p>
             <div class="icons d-flex justify-content-between align-items-start">
-              <i class="fa fa-github" style="font-size:36px"></i>
-              <i class="fa fa-external-link" aria-hidden="true" style="font-size:30px"></i>
+              <a href="https://github.com/nirav-v/dw-rugs" target="_blank"><i class="fa fa-github"
+                  style="font-size:36px; color:white;"></i></a>
+              <a href="https://dwrugs.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"
+                  style="font-size:30px; color:white;"></i></a>
             </div>
           </div>
           <img src="./images/dwRugsImage.png" alt="dw-rugs">
@@ -165,8 +172,10 @@
           <div class="additional-details">
             <p>App used by dogs in need of a human</p>
             <div class="icons d-flex justify-content-between align-items-start">
-              <i class="fa fa-github" style="font-size:36px"></i>
-              <i class="fa fa-external-link" aria-hidden="true" style="font-size:30px"></i>
+              <a href="https://github.com/nirav-v/adopt-an-owner" target="_blank"></a><i class="fa fa-github"
+                style="font-size:36px; color:white;"></i>
+              <a href="radiant-wave-08847.herokuapp.com/" target="_blank"></a><i class="fa fa-external-link"
+                aria-hidden="true" style="font-size:30px; color:white;"></i>
             </div>
           </div>
           <img src="./images/adoptAnOwnerImage.png" alt="adoptAnOwnerImage">
